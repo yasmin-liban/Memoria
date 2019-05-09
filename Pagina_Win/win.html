@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = UTF-08>
+        <title> Victory</title>
+        <script type="text/javascript" src="win.js"></script>
+        <style>
+            @font-face {
+                font-family: myFont;
+                src: url("../Fontes/font1.ttf");
+            }
+            h1{
+                font-family: myFont;
+                font-size: 50px;
+            }
+            .again
+            {
+                font-family: myFont;
+                font-size:30px;
+                box-shadow: 5px 5px rgb(46, 46, 46);
+                background-color: rgb(73, 119, 180);
+                cursor: pointer;
+                border: none;
+            }
+            body
+            {
+                background-color: pink;
+                text-align: center;
+            }
+            img
+            {
+                border: 10px rgb(58, 58, 58) dotted;
+            }
+        </style>
+
+    </head>
+    <body onload="color()">
+        <h1 id="win" >You Won!</h1>
+        <br>
+        <img src="you win.gif"> 
+        <br>
+        <br>
+        <button class="again" type="button" onclick="redirect()" >Play Again?</h1>
+
+    </body>
+</html> 

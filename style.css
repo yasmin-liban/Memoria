@@ -1,0 +1,35 @@
+body{
+    background-color: pink;
+}
+img{
+    border: 5px black dotted;
+    cursor: pointer;
+    width: 12%;
+    height: 14%;
+    max-width: 500px;
+    max-height: 500px;
+}
+@font-face {
+    font-family: myFont;
+    src: url("Fontes/font1.ttf");
+}
+h1{
+    font-family: myFont;
+    display: inline;
+}
+#score{
+    font-size: 30px; 
+    display: inline;
+    font-family: myFont;
+    color: #bf5353;
+}
+div{
+    color:black;
+}
+table{
+    border-spacing: 0cm;
+    text-align: center;
+}
+td{
+display: contents;
+}
